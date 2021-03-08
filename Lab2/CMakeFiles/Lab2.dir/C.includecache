@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/OS_LAB/Lab2/Lab2/Lab2.c
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+pthread.h
+-
+
