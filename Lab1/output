@@ -1,0 +1,97 @@
+623   execve("./Lab1", ["./Lab1"], 0x7ffea8593b90 /* 21 vars */) = 0
+623   arch_prctl(0x3001 /* ARCH_??? */, 0x7ffc4b3ed3a0) = -1 EINVAL (Invalid argument)
+623   access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+623   openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+623   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+623   arch_prctl(ARCH_SET_FS, 0x7ff16e129540) = 0
+623   clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff16e129810) = 624
+623   clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7ff16e129810) = 625
+623   wait4(625,  <unfinished ...>
+625   execve("/bin/ps", ["/bin/ps"], NULL) = 0
+625   arch_prctl(0x3001 /* ARCH_??? */, 0x7fffb5fd4310) = -1 EINVAL (Invalid argument)
+625   access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+625   openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libprocps.so.8", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libsystemd.so.0", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/liblzma.so.5", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/liblz4.so.1", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgcrypt.so.20", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libgpg-error.so.0", O_RDONLY|O_CLOEXEC) = 3
+625   arch_prctl(ARCH_SET_FS, 0x7f67521137c0) = 0
+625   openat(AT_FDCWD, "/proc/self/auxv", O_RDONLY) = 3
+625   openat(AT_FDCWD, "/proc/sys/kernel/osrelease", O_RDONLY) = 3
+625   openat(AT_FDCWD, "/sys/devices/system/cpu/online", O_RDONLY|O_CLOEXEC) = 3
+625   openat(AT_FDCWD, "/proc/self/auxv", O_RDONLY) = 3
+625   openat(AT_FDCWD, "/proc/self/stat", O_RDONLY) = 3
+625   openat(AT_FDCWD, "/proc/uptime", O_RDONLY) = 3
+625   openat(AT_FDCWD, "/proc/sys/kernel/pid_max", O_RDONLY) = 4
+625   openat(AT_FDCWD, "/proc/sys/kernel/osrelease", O_RDONLY) = 4
+625   openat(AT_FDCWD, "/proc/meminfo", O_RDONLY) = 4
+625   stat("/proc/self/task", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+625   openat(AT_FDCWD, "/proc", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 5
+625   stat("/proc/1", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+625   openat(AT_FDCWD, "/proc/1/stat", O_RDONLY) = 6
+625   openat(AT_FDCWD, "/proc/1/status", O_RDONLY) = 6
+625   stat("/proc/529", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+625   openat(AT_FDCWD, "/proc/529/stat", O_RDONLY) = 6
+625   openat(AT_FDCWD, "/proc/529/status", O_RDONLY) = 6
+625   stat("/proc/530", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+625   openat(AT_FDCWD, "/proc/530/stat", O_RDONLY) = 6
+625   openat(AT_FDCWD, "/proc/530/status", O_RDONLY) = 6
+625   stat("/proc/531", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+625   openat(AT_FDCWD, "/proc/531/stat", O_RDONLY) = 6
+625   openat(AT_FDCWD, "/proc/531/status", O_RDONLY) = 6
+625   openat(AT_FDCWD, "/proc/tty/drivers", O_RDONLY) = 6
+625   stat("/dev/pts0", 0x7fffb5fd4070) = -1 ENOENT (No such file or directory)
+625   stat("/dev/pts/0", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+625   stat("/proc/620", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+625   openat(AT_FDCWD, "/proc/620/stat", O_RDONLY) = 6
+625   openat(AT_FDCWD, "/proc/620/status", O_RDONLY) = 6
+625   stat("/dev/pts0", 0x7fffb5fd4070) = -1 ENOENT (No such file or directory)
+625   stat("/dev/pts/0", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+625   stat("/proc/623", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+625   openat(AT_FDCWD, "/proc/623/stat", O_RDONLY) = 6
+625   openat(AT_FDCWD, "/proc/623/status", O_RDONLY) = 6
+625   stat("/dev/pts0", 0x7fffb5fd4070) = -1 ENOENT (No such file or directory)
+625   stat("/dev/pts/0", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+625   stat("/proc/624", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+625   openat(AT_FDCWD, "/proc/624/stat", O_RDONLY) = 6
+625   openat(AT_FDCWD, "/proc/624/status", O_RDONLY) = 6
+625   stat("/dev/pts0", 0x7fffb5fd4070) = -1 ENOENT (No such file or directory)
+625   stat("/dev/pts/0", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+625   stat("/proc/625", {st_mode=S_IFDIR|0555, st_size=0, ...}) = 0
+625   openat(AT_FDCWD, "/proc/625/stat", O_RDONLY) = 6
+625   openat(AT_FDCWD, "/proc/625/status", O_RDONLY) = 6
+625   stat("/dev/pts0", 0x7fffb5fd4070) = -1 ENOENT (No such file or directory)
+625   stat("/dev/pts/0", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0), ...}) = 0
+625   exit_group(0)                     = ?
+625   +++ exited with 0 +++
+623   <... wait4 resumed>[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 625
+623   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=625, si_uid=1000, si_status=0, si_utime=0, si_stime=4} ---
+623   wait4(624,  <unfinished ...>
+624   --- SIGINT {si_signo=SIGINT, si_code=SI_USER, si_pid=623, si_uid=1000} ---
+624   execve("/bin/ls", ["/bin/ls"], NULL) = 0
+624   arch_prctl(0x3001 /* ARCH_??? */, 0x7ffeab6865a0) = -1 EINVAL (Invalid argument)
+624   access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+624   openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+624   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libselinux.so.1", O_RDONLY|O_CLOEXEC) = 3
+624   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+624   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpcre2-8.so.0", O_RDONLY|O_CLOEXEC) = 3
+624   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+624   openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+624   arch_prctl(ARCH_SET_FS, 0x7f10a16ad400) = 0
+624   statfs("/sys/fs/selinux", 0x7ffeab6864f0) = -1 ENOENT (No such file or directory)
+624   statfs("/selinux", 0x7ffeab6864f0) = -1 ENOENT (No such file or directory)
+624   openat(AT_FDCWD, "/proc/filesystems", O_RDONLY|O_CLOEXEC) = 3
+624   access("/etc/selinux/config", F_OK) = -1 ENOENT (No such file or directory)
+624   openat(AT_FDCWD, ".", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 3
+624   exit_group(0)                     = ?
+624   +++ exited with 0 +++
+623   <... wait4 resumed>[{WIFEXITED(s) && WEXITSTATUS(s) == 0}], 0, NULL) = 624
+623   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=624, si_uid=1000, si_status=0, si_utime=0, si_stime=0} ---
+623   exit_group(0)                     = ?
+623   +++ exited with 0 +++
