@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/OS_LAB/Lab3/Lab3/Lab3.c
+Lab3.h
+/mnt/e/OS_LAB/Lab3/Lab3/Lab3.h
+stdbool.h
+-
+
+/mnt/e/OS_LAB/Lab3/Lab3/Lab3.h
+sys/types.h
+-
+wait.h
+-
+unistd.h
+-
+signal.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/types.h
+-
+sys/stat.h
+-
+fcntl.h
+-
+
