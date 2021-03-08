@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/Lab4.dir/producer.c.o CMakeFiles/Lab4.dir/ipc.c.o CMakeFiles/Lab4.dir/consumer.c.o  -o Lab4 

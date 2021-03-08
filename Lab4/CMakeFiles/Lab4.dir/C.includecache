@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/OS_LAB/Lab4/Lab4/consumer.c
+ipc.h
+/mnt/e/OS_LAB/Lab4/Lab4/ipc.h
+
+/mnt/e/OS_LAB/Lab4/Lab4/ipc.c
+ipc.h
+/mnt/e/OS_LAB/Lab4/Lab4/ipc.h
+
+/mnt/e/OS_LAB/Lab4/Lab4/ipc.h
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+sys/sem.h
+-
+sys/msg.h
+-
+
+/mnt/e/OS_LAB/Lab4/Lab4/producer.c
+ipc.h
+/mnt/e/OS_LAB/Lab4/Lab4/ipc.h
+
