@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Lab6.dir/dp.cc.o  -o Lab6 

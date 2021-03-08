@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/OS_LAB/Lab6/Lab6/dp.cc
+dp.h
+/mnt/e/OS_LAB/Lab6/Lab6/dp.h
+
+/mnt/e/OS_LAB/Lab6/Lab6/dp.h
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+sys/sem.h
+-
+sys/msg.h
+-
+sys/wait.h
+-
+
